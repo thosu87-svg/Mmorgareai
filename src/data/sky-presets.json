@@ -1,0 +1,14 @@
+{
+  "day": {
+    "light": { "sunIntensity": 1.3, "ambientIntensity": 0.6, "sunDirection": [-1, -2, -1], "sunColor": "#FFFFFF", "groundColor": "#8B7355" },
+    "fog": { "color": "#B0E0E6", "near": 50, "far": 200 }
+  },
+  "dusk": {
+    "light": { "sunIntensity": 0.7, "ambientIntensity": 0.3, "sunDirection": [-1, -0.5, -1], "sunColor": "#FFC066", "groundColor": "#8B4513" },
+    "fog": { "color": "#FFE4B5", "near": 30, "far": 150 }
+  },
+  "night": {
+    "light": { "sunIntensity": 0.02, "ambientIntensity": 0.05, "sunDirection": [-1, -2, -1], "sunColor": "#6688CC", "groundColor": "#050810" },
+    "fog": { "color": "#020305", "near": 10, "far": 80 }
+  }
+}

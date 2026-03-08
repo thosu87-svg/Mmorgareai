@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "item-cyber-deck",
+      "description": "High-performance cybernetic interface deck",
+      "imageUrl": "https://images.unsplash.com/photo-1689443111130-6e9c7dfd8f9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjeWJlcnB1bmslMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc3MjUwMjQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cyberpunk technology"
+    },
+    {
+      "id": "item-plasma-core",
+      "description": "Unstable plasma energy core used for propulsion",
+      "imageUrl": "https://images.unsplash.com/photo-1742868305921-54a7121f24ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlbmVyZ3klMjBjb3JlfGVufDB8fHx8MTc3MjUwMjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "energy core"
+    },
+    {
+      "id": "item-void-armor",
+      "description": "Reinforced armor plated with void-treated alloy",
+      "imageUrl": "https://images.unsplash.com/photo-1718453908957-f5433b9d1be9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2ktZmklMjBhcm1vcnxlbnwwfHx8fDE3NzI1MDI0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi armor"
+    },
+    {
+      "id": "region-nebulas-edge",
+      "description": "Distant space station at the edge of a nebula",
+      "imageUrl": "https://images.unsplash.com/photo-1681673819379-a183d9acf860?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZWJ1bGElMjBzcGFjZXxlbnwwfHx8fDE3NzI0OTgyNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nebula space"
+    },
+    {
+      "id": "asset-starship",
+      "description": "Mark IV Interceptor 3D Model",
+      "imageUrl": "https://images.unsplash.com/photo-1541447271487-09612b3f49f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcGFjZXNoaXB8ZW58MHx8fHwxNzcyNTAyOTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spaceship"
+    },
+    {
+      "id": "asset-robot",
+      "description": "Maintenance Droid Rigged Character",
+      "imageUrl": "https://images.unsplash.com/photo-1531746790731-6c307f0c112e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb2JvdHxlbnwwfHx8fDE3NzI1MDI0OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot"
+    },
+    {
+      "id": "asset-blueprint",
+      "description": "Modular Outpost Blueprint",
+      "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibHVlcHJpbnR8ZW58MHx8fHwxNzcyNTAyOTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blueprint"
+    },
+    {
+      "id": "world-primitive",
+      "description": "Dusty frontier outpost in the Primitive Era",
+      "imageUrl": "https://images.unsplash.com/photo-1506466010722-395aa2bef877?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXNlcnQlMjBvdXRwb3N0fGVufDB8fHx8MTc3MjUwNTAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desert outpost"
+    },
+    {
+      "id": "world-industrial",
+      "description": "Metallic industrial city in the Gear Era",
+      "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmR1c3RyaWFsJTIwY2l0eXxlbnwwfHx8fDE3NzI1MDUwMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial city"
+    },
+    {
+      "id": "world-chrome",
+      "description": "Futuristic neon metropolis in the Chrome Era",
+      "imageUrl": "https://images.unsplash.com/photo-1605142859862-978be7eba909?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjeWJlcnB1bmslMjBjaXR5fGVufDB8fHx8MTc3MjUwNTAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cyberpunk city"
+    }
+  ]
+}

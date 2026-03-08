@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>Kriegstrommel MMORPG</title><style>
+html,body{margin:0;padding:0;overflow:hidden;background:#08111e;color:#eff5ff;font-family:Arial,sans-serif}
+#hud{position:fixed;top:12px;left:12px;right:12px;display:flex;gap:12px;z-index:20}
+.panel{background:rgba(0,0,0,.52);padding:10px 12px;border-radius:14px;min-width:180px}
+button{margin:2px 0;width:100%;padding:8px;border-radius:10px;border:0;background:#264b7b;color:white}
+#stats,#market,#brain{font-size:12px;white-space:pre-wrap;line-height:1.4}
+</style></head><body>
+<div id="hud">
+<div class="panel"><div><strong>Kriegstrommel MMORPG</strong></div><div id="status">verbinde...</div><div id="stats"></div></div>
+<div class="panel"><div><strong>Aktionen</strong></div><button id="attackBtn">Angriff</button><button id="potionBtn">Potion nutzen</button><button id="buyPotionBtn">Potion kaufen</button><button id="sellAppleBtn">Apfel verkaufen</button><button id="guildBtn">Gilde beitreten</button><div id="market"></div></div>
+<div class="panel"><div><strong>World Brain</strong></div><div id="brain"></div></div>
+</div>
+<script type="module" src="/main.js"></script>
+</body></html>

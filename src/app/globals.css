@@ -1,0 +1,78 @@
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Audiowide&family=Courier+Prime:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cinzel+Decorative:wght@700&family=JetBrains+Mono:wght@300;400;700&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&family=Rajdhani:wght@300;500;700&family=Inter:wght@400;700;900&display=swap');
+@plugin "tailwindcss-animate";
+
+@theme {
+  --font-display: "Orbitron", serif;
+  --font-heading: "Audiowide", serif;
+  --font-body: "Inter", sans-serif;
+  --font-code: "Courier Prime", monospace;
+  --font-serif: "Cinzel", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-background: hsl(240 10% 2%);
+  --color-foreground: hsl(196 100% 95%);
+  --color-card: hsl(240 10% 4%);
+  --color-card-foreground: hsl(196 100% 95%);
+  --color-popover: hsl(240 10% 2%);
+  --color-popover-foreground: hsl(196 100% 95%);
+  --color-primary: hsl(196 100% 50%);
+  --color-primary-foreground: hsl(240 10% 2%);
+  --color-secondary: hsl(240 10% 13%);
+  --color-secondary-foreground: hsl(196 100% 95%);
+  --color-muted: hsl(240 10% 8%);
+  --color-muted-foreground: hsl(220 20% 60%);
+  --color-accent: hsl(196 100% 69%);
+  --color-accent-foreground: hsl(240 10% 2%);
+  --color-destructive: hsl(0 65% 46%);
+  --color-destructive-foreground: hsl(45 40% 95%);
+  --color-border: hsl(196 100% 20%);
+  --color-input: hsl(196 100% 20%);
+  --color-ring: hsl(196 100% 50%);
+
+  --color-axiom-cyan: #4cafcb;
+  --color-axiom-gold: #ffd700;
+  --color-axiom-silver: #e8f0f8;
+  --color-axiom-dark: #050508;
+  --color-axiom-purple: #7b4fd4;
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes matrix-scan {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+  }
+  @keyframes heartbeat {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: .5; transform: scale(1.2); }
+  }
+
+  --animate-gradient: gradient 8s ease infinite;
+  --animate-matrix-scan: matrix-scan 4s linear infinite;
+  --animate-heartbeat: heartbeat 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased overflow-x-hidden;
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: #020203; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: #4cafcb; border-radius: 3px; }
+  .axiom-gradient { background: linear-gradient(135deg, #4cafcb 0%, #7b4fd4 100%); }
+  .heartbeat-pulse { @apply animate-heartbeat; }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .axiom-card-hover { @apply hover:border-accent/40 transition-all duration-500 hover:shadow-[0_0_30px_rgba(96,212,255,0.15)]; }
+}
